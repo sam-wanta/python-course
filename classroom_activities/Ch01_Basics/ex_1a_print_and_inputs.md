@@ -157,8 +157,8 @@ Here are some other examples of what we can do with strings:
 ```python3
 ## 7
 ## Try this. What is it doing?
-customer = "bob"
-shouted = customer.upper()
+shopper = "bob"
+shouted = shopper.upper()
 print(shouted)
 
 
@@ -181,7 +181,7 @@ Now, try it by filling in the blanks:
 ```python3
 ## 10
 ## Complete the following:
-customer = "caTHy"
+cust = "caTHy"
 shouted_cust = ___.upper()
 print("The customer name, all uppercase, is...")
 print(shouted_cust)
@@ -222,8 +222,8 @@ You can also use `print` with multiple arguments:
 
 ```python3
 ## 12
-apples = 3
-print("I have", apples, "apples.")
+lemons = 3
+print("I have", lemons, "lemons.")
 ```
 
 Notice that when `"apples"` is in quotes, it's treated as a string (the literal word "apples"), while `apples` outside of quotes is interpreted as a variable.
@@ -232,8 +232,8 @@ You can also use a **formatted string**, a.k.a. **f-string**:
 
 ```python3
 ## 13
-apples = 3
-print(f"I have {apples} apples.")
+berries = 3
+print(f"I have {berries} berries.")
 ```
 
 ### Common error messages so far
@@ -286,9 +286,9 @@ You can make programs interactive by using the `input()` function. Here's an exa
 ```python3
 ## 16
 print("Enter the customer name: ")
-customer = input()
-greeting = "hello" + customer + "!"
-print(greeting.upper())
+merchant = input()
+greetings = "hello" + merchant + "!"
+print(greetings.upper())
 ```
 
 When you run this, you'll see that the `input` function causes the program to pause. The `input()` means "Wait for the user to type something before moving on."
@@ -355,8 +355,8 @@ You can also combine the `print` and the `input` like so, if you prefer:
 ```python3
 ## 23
 ## Try this.
-color = input("Enter a color: ")
-print("The color you chose is", color)
+col = input("Enter a color: ")
+print("The color you chose is", col)
 ```
 
 Most of our examples use the combined approach, but either is valid.
@@ -367,9 +367,9 @@ We've seen two data types so far: strings and integers. We've also seen that the
 
 ```python3
 ## 24
-apples = 3
+app = 3
 print("I have", apples, "apples.")
-onemore = apples + 1
+onemore = app + 1
 print("If I had another, I would have", onemore, "apples.")
 planet = "Mars"
 print("Here's a planet name:", planet)
@@ -419,10 +419,10 @@ Now, compare to this one:
 ## 27
 ## Try this.  It will perform proper arithmetic.
 print("Welcome to the number adder that works well!")
-a = int(input("What's a number you like? "))
-b = int(input("Can you give me another number you like? "))
-c = a + b
-print(c)
+z = int(input("What's a number you like? "))
+x = int(input("Can you give me another number you like? "))
+t = z + x
+print(t)
 ```
 
 Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings (not integers), so the `+` symbol does concatenation instead of math addition.
@@ -430,17 +430,17 @@ Notice that the `int` function tells Python to convert the numbers to integers. 
 ```python3
 ## 28
 ## Try this. You will get an error. How do you fix it?
-a = input("What is a number you like? ")
-b = int(input("Can you give me another number you like? "))
-c = a + b
-print(c)
+l = input("What is a number you like? ")
+m = int(input("Can you give me another number you like? "))
+n = l + m
+print(n)
 
 
 ## 29
 ## Try this. You will get an error. How do you fix it?
 favnum = input("What is your favorite number? ")
-onemore = favnum + 1
-print("One more would be", onemore)
+onemo = favnum + 1
+print("One more would be", onemo)
 
 
 ## 30
@@ -531,20 +531,20 @@ determine what kind of data is held in a variable or a value.
 ## The type of 3 is integer.
 ## What happens when you multiply an integer times an integer?
 ## What about a string times an integer?
-x = 123
-y = "123"
-print(x*3)
-print(y*3)
+d = 123
+e = "123"
+print(d*3)
+print(e*3)
 
 
 ## 42
 ## Try this. It shows how to use the type() function.
 ## `x` and `y` are both variables, are they integers or strings?
-x = input("Enter a word.")
-y = int(input("Enter a number."))
-print(f"The type of x is {type(x)}, which is another way to say 'string'.")
-print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
-print(x*y)
+f = input("Enter a word.")
+g = int(input("Enter a number."))
+print(f"The type of f is {type(f)}, which is another way to say 'string'.")
+print(f"The type of g is {type(g)}, which is another way to say 'integer'.")
+print(f*g)
 
 
 ## 43
@@ -570,8 +570,8 @@ print(f"You typed {somenum}")
 
 ## 45
 ## Try this. You'll see that it allows for non-whole numbers.
-somenum = float(input("Try typing another non-whole number: "))
-print(f"You typed {somenum}")
+somenum2 = float(input("Try typing another non-whole number: "))
+print(f"You typed {somenum2}")
 
 
 ## 46
