@@ -226,7 +226,7 @@ lemons = 3
 print("I have", lemons, "lemons.")
 ```
 
-Notice that when `"apples"` is in quotes, it's treated as a string (the literal word "apples"), while `apples` outside of quotes is interpreted as a variable.
+Notice that when `"lemons"` is in quotes, it's treated as a string (the literal word "apples"), while `lemons` outside of quotes is interpreted as a variable.
 
 You can also use a **formatted string**, a.k.a. **f-string**:
 
@@ -368,7 +368,7 @@ We've seen two data types so far: strings and integers. We've also seen that the
 ```python3
 ## 24
 app = 3
-print("I have", apples, "apples.")
+print("I have", apples, "app.")
 onemore = app + 1
 print("If I had another, I would have", onemore, "apples.")
 planet = "Mars"
@@ -527,7 +527,7 @@ determine what kind of data is held in a variable or a value.
 ```python3
 ## 41 Duplicating/repeating a string
 ## Try this.
-## In the current example, the data type of `x` is integer, and the type of `y` is string.
+## In the current example, the data type of `d` is integer, and the type of `e` is string.
 ## The type of 3 is integer.
 ## What happens when you multiply an integer times an integer?
 ## What about a string times an integer?
